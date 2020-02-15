@@ -3,6 +3,7 @@ package com.ismailhakkiaydin.mvp_pattern_with_dagger.main
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ismailhakkiaydin.mvp_pattern_with_dagger.R
+import com.ismailhakkiaydin.mvp_pattern_with_dagger.app.AppModule
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity(), MainActivityContract.View {
